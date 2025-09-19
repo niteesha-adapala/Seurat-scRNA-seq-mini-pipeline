@@ -4,7 +4,6 @@ A lightweight Seurat workflow for QC → normalization → HVGs → scaling → 
 
 ## 📦 Repo contents
 - `scripts/scrna_pipeline.R` — end-to-end Seurat script
-- `data/` — (optional) keep raw inputs here (git-ignored by default)
 - `outputs/` — figures etc. (git-ignored)
 
 ## 🔧 Requirements
