@@ -5,7 +5,7 @@ library(Seurat)
 library(tidyverse)
 library(ggplot2)
 
-nsclc.sparse.m <- Read10X_h5(filename = "C:/Users/Niteesha/Downloads/20k_NSCLC_DTC_3p_nextgem_intron_donor_1_count_sample_feature_bc_matrix.h5")
+nsclc.sparse.m <- Read10X_h5(filename = "20k_NSCLC_DTC_3p_nextgem_intron_donor_1_count_sample_feature_bc_matrix.h5")
 
 ## Load the dataset
 
