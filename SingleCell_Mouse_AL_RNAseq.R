@@ -5,14 +5,11 @@ library(Seurat)
 library(tidyverse)
 library(ggplot2)
 
-nsclc.sparse.m <- Read10X_h5(filename = "20k_NSCLC_DTC_3p_nextgem_intron_donor_1_count_sample_feature_bc_matrix.h5")
-
 ## Load the dataset
 
 mats <- Seurat::Read10X_h5(
   "C:/Users/Niteesha/Downloads/Multiome_RNA_ATAC_Mouse_Brain_Alzheimers_AppNote_filtered_feature_bc_matrix.h5"
 )
-nsclc.sparse.m -> mats
 obj <- CreateSeuratObject(counts = if (is.list(mats)) mats[[1]] else mats)
 mats -> mouseAL
 
