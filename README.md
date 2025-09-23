@@ -3,7 +3,7 @@
 This project applies a **Seurat-based single-cell RNA-seq pipeline** to 10x Genomics data (mouse brain multiome, Alzheimer’s dataset). The workflow covers **QC, filtering, normalization, feature selection, dimensionality reduction, clustering, and visualization**.
 
 ## 📦 Repo contents
-- `scripts/scrna_pipeline.R` - end-to-end Seurat script
+- `SingleCell_Mouse_AL_RNAseq.R` - end-to-end Seurat script
 - `outputs/` - figures etc. (git-ignored)
 - `20k_NSCLC_DTC_3p_nextgem_intron_donor_1_count_sample_feature_bc_matrix.h5/` - Input file
 
