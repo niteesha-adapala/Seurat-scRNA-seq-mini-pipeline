@@ -11,4 +11,5 @@ A lightweight Seurat workflow for QC → normalization → HVGs → scaling → 
 - Packages: `Seurat`, `tidyverse`, `ggplot2`  
   ```r
   install.packages(c("Seurat","tidyverse","ggplot2"))
-  
+  <img width="1183" height="827" alt="image" src="https://github.com/user-attachments/assets/dc4a7e08-7bac-4e3b-8203-66d03c186860" />
+
